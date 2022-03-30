@@ -1,17 +1,13 @@
 package ru.avalon.vergentev.j110.labwork5_1;
 
-public class UsualClass {
+public class Realization {
     double a, b, accuracy;
 
-//    UsualClass y1 = new FirstEquation(0.01, 2, 0.00001);
-
-
-    public UsualClass(double a, double b, double accuracy) {
+    public Realization(double a, double b, double accuracy) {
         this.a = a;
         this.b = b;
         this.accuracy = accuracy;
     }
-
 
     public double y(double x) {
         return 0;
@@ -28,9 +24,8 @@ public class UsualClass {
         System.out.println("The decision of equation is: " + (a+b)/2);
     }
 
-    public static void halfDivisionStatic (UsualClass y) {
+    public static void halfDivisionStatic (Realization y) {
         y.halfDivision();
     }
-
 
 }
