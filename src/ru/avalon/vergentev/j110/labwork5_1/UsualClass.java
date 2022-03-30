@@ -1,8 +1,9 @@
 package ru.avalon.vergentev.j110.labwork5_1;
 
 public class UsualClass {
-
     double a, b, accuracy;
+
+//    UsualClass y1 = new FirstEquation(0.01, 2, 0.00001);
 
 
     public UsualClass(double a, double b, double accuracy) {
@@ -15,8 +16,6 @@ public class UsualClass {
     public double y(double x) {
         return 0;
     }
-
-
 
     public void halfDivision () {
         do {
@@ -32,7 +31,6 @@ public class UsualClass {
     public static void halfDivisionStatic (UsualClass y) {
         y.halfDivision();
     }
-
 
 
 }
