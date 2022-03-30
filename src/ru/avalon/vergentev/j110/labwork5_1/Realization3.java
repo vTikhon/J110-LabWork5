@@ -21,6 +21,9 @@ public class Realization3 {
         System.out.println("The decision of equation is: " + (a+b)/2);
     }
 
+//    public static void halfDivisionStatic3 (Realization3 functions) {
+//        functions.halfDivision3();
+//    }
 
 }
 

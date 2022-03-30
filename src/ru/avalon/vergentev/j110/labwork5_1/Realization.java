@@ -24,8 +24,10 @@ public class Realization {
         System.out.println("The decision of equation is: " + (a+b)/2);
     }
 
-    public static void halfDivisionStatic (Realization y) {
-        y.halfDivision();
+    public static void halfDivisionStatic (Realization [] equations) {
+        for (Realization i : equations) {
+            i.halfDivision();
+        }
     }
 
 }
