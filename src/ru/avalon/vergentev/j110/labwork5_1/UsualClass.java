@@ -20,14 +20,17 @@ public class UsualClass {
 
     public void halfDivision () {
         do {
-            if (y((a+b)/2) == 0) {
-            } else if (y(a)*y((a+b)/2) < 0) {
+            if (y(a)*y((a+b)/2) < 0) {
                 b = (a+b)/2;
             } else if (y((a+b)/2)*y(b) < 0) {
                 a = (a+b)/2;
             }
         } while (Math.abs((a-(a+b)/2)) > accuracy || Math.abs((b-(a+b)/2)) > accuracy);
         System.out.println("The decision of equation is: " + (a+b)/2);
+    }
+
+    public static void halfDivisionStatic (UsualClass y) {
+        y.halfDivision();
     }
 
 
