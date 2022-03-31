@@ -1,6 +1,7 @@
 package ru.avalon.vergentev.j110.labwork5_1;
 
 public class Realization {
+//    FunctionBehaviour functionBehaviour;
     double a, b, accuracy;
 
     public Realization(double a, double b, double accuracy) {
