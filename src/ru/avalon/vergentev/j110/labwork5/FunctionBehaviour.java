@@ -1,4 +1,4 @@
-package ru.avalon.vergentev.j110.labwork5_1;
+package ru.avalon.vergentev.j110.labwork5;
 
 @FunctionalInterface
 public interface FunctionBehaviour {

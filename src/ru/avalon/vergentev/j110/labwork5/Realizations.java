@@ -1,9 +1,9 @@
-package ru.avalon.vergentev.j110.labwork5_1;
+package ru.avalon.vergentev.j110.labwork5;
 
-public class Realization{
+public class Realizations {
     double a, b, accuracy;
 
-    public Realization(double a, double b, double accuracy) {
+    public Realizations(double a, double b, double accuracy) {
         this.a = a;
         this.b = b;
         this.accuracy = accuracy;
@@ -22,35 +22,35 @@ public class Realization{
 
 
     //формируем вложенные классы
-    public static class Equation1 implements FunctionBehaviour{
+    public static class Equation1 implements FunctionBehaviour {
         @Override
         public double y(double x) {
             return (Math.exp(-x) - 0.5);
         }
     }
 
-    public static class Equation2 implements FunctionBehaviour{
+    public static class Equation2 implements FunctionBehaviour {
         @Override
         public double y(double x) {
             return (Math.sin(x)-0.75);
         }
     }
 
-    public static class Equation3 implements FunctionBehaviour{
+    public static class Equation3 implements FunctionBehaviour {
         @Override
         public double y(double x) {
             return (Math.log(x*x*x)-2);
         }
     }
 
-    public static class Equation4 implements FunctionBehaviour{
+    public static class Equation4 implements FunctionBehaviour {
         @Override
         public double y(double x) {
             return (Math.tan(x));
         }
     }
 
-    public static class Equation5 implements FunctionBehaviour{
+    public static class Equation5 implements FunctionBehaviour {
         @Override
         public double y(double x) {
             return (x*x*x - 8*x + 2);
