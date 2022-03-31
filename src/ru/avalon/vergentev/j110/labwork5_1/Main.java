@@ -63,7 +63,7 @@ public class Main {
 
 
         //вызываем статичный метод
-//        Realization.halfDivisionStatic(functions);
+//        Realization.halfDivisionStatic();
 
 
     }

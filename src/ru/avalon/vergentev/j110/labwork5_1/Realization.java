@@ -21,10 +21,8 @@ public class Realization {
         System.out.println("The decision of equation is: " + (a+b)/2);
     }
 
-//    public static void halfDivisionStatic (Realization [] equations) {
-//        for (Realization i : equations) {
-//            i.halfDivision();
-//        }
+//    public static void halfDivisionStatic (Realization equations) {
+//        equations.halfDivision(functionBehaviour);
 //    }
 
     //формируем вложенные классы
