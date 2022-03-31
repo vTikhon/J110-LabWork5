@@ -13,7 +13,6 @@ public class Main {
 
 
 
-
         //через анонимные классы:
         System.out.println("(Anonymous class) Instance method reference: ");
         new Realization(0.01, 2, 0.00001).halfDivision(new FunctionBehaviour() {
@@ -51,7 +50,6 @@ public class Main {
 
 
 
-
         //через лямбда выражения
         System.out.println("(Lambda) Instance method reference: ");
         new Realization(0.01, 2, 0.00001).halfDivision((x) -> (Math.exp(-x) - 0.5));
@@ -60,10 +58,6 @@ public class Main {
         new Realization(2, 4, 0.00001).halfDivision((x) -> (Math.tan(x)));
         new Realization(1, 5, 0.00001).halfDivision((x) -> (x*x*x - 8*x + 2));
         System.out.print('\n');
-
-
-        //вызываем статичный метод
-//        Realization.halfDivisionStatic();
 
 
     }

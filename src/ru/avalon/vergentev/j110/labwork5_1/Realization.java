@@ -1,7 +1,6 @@
 package ru.avalon.vergentev.j110.labwork5_1;
 
-public class Realization {
-//    FunctionBehaviour functionBehaviour;
+public class Realization{
     double a, b, accuracy;
 
     public Realization(double a, double b, double accuracy) {
@@ -21,9 +20,6 @@ public class Realization {
         System.out.println("The decision of equation is: " + (a+b)/2);
     }
 
-//    public static void halfDivisionStatic (Realization equations) {
-//        equations.halfDivision(functionBehaviour);
-//    }
 
     //формируем вложенные классы
     public static class Equation1 implements FunctionBehaviour{
