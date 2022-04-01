@@ -57,20 +57,20 @@ public class Main {
 
         //כאבא 5.2 קונוח כÿלבהא גûנאזוםטÿ
         System.out.println("(Lambda) Squares: ");
-        new Realization2(2, 5, 100).calculatingSquare(((x) -> (Math.log(x))));
-        new Realization2(3, 4, 100).calculatingSquare(((x) -> (x*x + x)));
-        new Realization2(0.01, 2, 100).calculatingSquare(((x) -> (Math.exp(-x))));
-        new Realization2(1, 3, 100).calculatingSquare(((x) -> (x*x)));
-        new Realization2(0, 1, 100).calculatingSquare(((x) -> (x*Math.sin(x))));
+        new Realizations(2, 5, 100).calculatingSquare(((x) -> (Math.log(x))));
+        new Realizations(3, 4, 100).calculatingSquare(((x) -> (x*x + x)));
+        new Realizations(0.01, 2, 100).calculatingSquare(((x) -> (Math.exp(-x))));
+        new Realizations(1, 3, 100).calculatingSquare(((x) -> (x*x)));
+        new Realizations(0, 1, 100).calculatingSquare(((x) -> (x*Math.sin(x))));
         System.out.print('\n');
 
         //כאבא 5.3 קונוח כÿלבהא גûנאזוםטÿ
         System.out.println("(Lambda) Surfaces: ");
-        new Realization3(1, 3, 1, 3, 100).calculatingSurface(((x, y) -> (x*y)));
-        new Realization3(3, 4, 7, 10,  100).calculatingSurface(((x, y) -> (x*x + x)*(2*y+1)));
-        new Realization3(0.01, 2, 0.5, 4, 100).calculatingSurface(((x, y) -> (Math.exp(-x*y))));
-        new Realization3(1, 3, 1, 2, 100).calculatingSurface(((x, y) -> (x*x +y*y*y)));
-        new Realization3(0, 1, 0, 1, 100).calculatingSurface(((x, y) -> (x*y*Math.sin(x*y))));
+        new Realizations(1, 3, 1, 3, 100).calculatingSurface(((x, y) -> (x*y)));
+        new Realizations(3, 4, 7, 10,  100).calculatingSurface(((x, y) -> (x*x + x)*(2*y+1)));
+        new Realizations(0.01, 2, 0.5, 4, 100).calculatingSurface(((x, y) -> (Math.exp(-x*y))));
+        new Realizations(1, 3, 1, 2, 100).calculatingSurface(((x, y) -> (x*x +y*y*y)));
+        new Realizations(0, 1, 0, 1, 100).calculatingSurface(((x, y) -> (x*y*Math.sin(x*y))));
         System.out.print('\n');
     }
 }
